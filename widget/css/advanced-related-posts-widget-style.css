@@ -1,0 +1,83 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+.ays-arp-widget-container .ays-arp-widget-posts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ays-arp-widget-container .ays-arp-widget {
+	text-align: center;
+	margin-bottom: 10px; 
+}
+
+.ays-arp-widget-container {
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+}
+
+.ays-arp-widget-container *,
+.ays-arp-widget-container :after,
+.ays-arp-widget-container :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ays-arp-widget-container a {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.ays-arp-widget-container hr {
+    margin: 0;
+    background-color: transparent;
+}
+
+.ays-arp-widget-container img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.ays-arp-widget-container .ays-arp-widget-img {
+    width: 100%;
+}
+
+.ays-arp-widget-container embed,
+.ays-arp-widget-container iframe,
+.ays-arp-widget-container object,
+.ays-arp-widget-container video {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+    border: none;
+}
+
+.ays-arp-widget-container .ays-arp-widget-posts {
+    -webkit-transition: background 0.3s, border 0.3s, -webkit-border-radius 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, -webkit-border-radius 0.3s, -webkit-box-shadow 0.3s;
+    -o-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-border-radius 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.ays-arp-widget-container .ays-arp-widget-posts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ays-arp-widget-container .ays-arp-widget {
+	text-align: center;
+	margin-bottom: 10px; 
+}

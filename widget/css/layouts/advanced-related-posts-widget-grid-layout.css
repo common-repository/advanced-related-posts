@@ -1,0 +1,126 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /**
+ * =======================================================================
+ * ========================== !!! IMPORTANT !!!===========================
+ * =======================================================================
+ * 
+ * 	USE this selector FIRST -> .ays-arp-widget-container.ays-arp-grid-layout
+ * 
+ * =======================================================================
+ * ========================== !!! IMPORTANT !!!===========================
+ * =======================================================================
+ */
+
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-header {
+	width: 30%;
+    margin-right: 10px;
+}
+
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-content {
+	width: 70%;
+	color: inherit;
+	text-align: left;
+}
+
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-posts {
+    text-align: center;
+}
+
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget {
+	display:-webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-img {
+	width: 100%;
+}
+
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-title-row {
+	color: inherit;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-title-row .ays-arp-widget-link{
+	box-shadow: none;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-excerpt-row {
+	margin: 0;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: rgb(119 119 119);
+}
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-date-author-row {
+	margin-top: auto;
+	line-height: 1.3em;
+    font-size: 12px;
+    padding-top: 5px;
+    color: rgb(173 173 173);
+	border-top: 0.5px solid rgb(234 234 234);
+}
+
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-date-enabled:before,
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-time:before {
+    content: "•";
+}
+
+.ays-arp-widget-container.ays-arp-grid-layout .ays-arp-widget-date-author-row span+span:before {
+	margin: 0 5px;
+}
+
+@media (min-width: 768px) {
+    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,
+    .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+        text-align: right;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper {
+        text-align: left;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .elementor-widget-image-box.elementor-position-top .elementor-image-box-img {
+        margin: auto;
+    }
+    .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper {
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+}

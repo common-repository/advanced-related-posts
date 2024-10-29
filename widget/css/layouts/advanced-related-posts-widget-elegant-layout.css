@@ -1,0 +1,96 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /**
+ * =======================================================================
+ * ========================== !!! IMPORTANT !!!===========================
+ * =======================================================================
+ * 
+ * 	USE this selector FIRST -> .ays-arp-widget-container.ays-arp-elegant-layout
+ * 
+ * =======================================================================
+ * ========================== !!! IMPORTANT !!!===========================
+ * =======================================================================
+ */
+
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-content {
+	width: 100%;
+	color: inherit;
+	text-align: center;
+
+	display: flex;
+  	flex-direction: column;
+}
+
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-posts {
+    text-align: center;
+}
+
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-title-row {
+	color: inherit;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-title-row .ays-arp-widget-link{
+	box-shadow: none;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-excerpt-row {
+	margin: 0;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: rgb(119 119 119);
+    margin-bottom: 5px;
+}
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-date-author-row {
+	margin-top: auto;
+	line-height: 1.3em;
+    font-size: 12px;
+    padding-top: 5px;
+    color: rgb(173 173 173);
+	border-top: 0.5px solid rgb(234 234 234);
+}
+
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-date-enabled:before,
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-time:before {
+    content: "•";
+}
+
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-date-author-row span+span:before {
+	margin: 0 5px;
+}
+
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-read-more-row {
+	margin-top: auto;
+	margin-bottom: 20px;
+}
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-read-more-row .ays-arp-widget-link {
+    color: rgb(240 69 28 / 90%);
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-size: 13px;
+
+    box-shadow: none;
+    border: 0;
+    outline: 0;
+    vertical-align: bottom;
+    width: 100%;
+    margin: 0;
+}
+
+.ays-arp-widget-container.ays-arp-elegant-layout .ays-arp-widget-read-more-row .ays-arp-widget-link:hover {
+	color: rgb(240 69 28 / 100%);
+}
